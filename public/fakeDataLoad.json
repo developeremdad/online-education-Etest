@@ -1,0 +1,82 @@
+[
+  {
+    "key": 1,
+    "service": "Web Development",
+    "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub2.png.pagespeed.ic.lPacsWzJCk.webp",
+    "description": "Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experienceidi.",
+    "price": 93,
+    "rate": 5,
+    "reveiw": 103,
+    "batch": 5
+  },
+  {
+    "key": 2,
+    "service": "Graphic Design",
+    "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub1.png.pagespeed.ic.5HRkRcL9IM.webp",
+    "description": "Graphic designers create the visual versions of brands, messages and communications. They help people and businesses get their messages across in ways that are memorable, effective, and aesthetically pleasing.",
+    "price": 84,
+    "rate": 4.5,
+    "reveiw": 97,
+    "batch": 4
+  },
+  {
+    "key": 3,
+    "service": "Digital Marketing",
+    "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub3.png.pagespeed.ic.Zzt8hGMkws.webp",
+    "description": "What are digital marketing services? Digital marketing services are professional services that help market or advertise your business online, like through search, social media, and paid channels.",
+    "price": 79,
+    "rate": 4,
+    "reveiw": 101,
+    "batch": 5
+  },
+  {
+    "key": 4,
+    "service": "App Development",
+    "img": "https://techworldtimes.com/wp-content/uploads/2021/03/ios-app-development1.jpg",
+    "description": "We provide custom mobile app development services. This includes expert business analysis, design and development of your mobile application from idea to launch,",
+    "price": 87,
+    "rate": 5,
+    "reveiw": 115,
+    "batch": 4
+  },
+  {
+    "key": 5,
+    "service": "Video Editing",
+    "img": "https://pixelperfectvideos.com/wp-content/uploads/2021/03/Budget-video-editing-tools-for-Mac-PC-Filmora-9-vs-FilmoraPro.jpg",
+    "description": "Video editing services can include cutting segments (trimming), re-sequencing clips, and adding transitions & other Special Effects. Videos are increasingly being used for marketing.",
+    "price": 64,
+    "rate": 5,
+    "reveiw": 5,
+    "batch": 6
+  },
+  {
+    "key": 6,
+    "service": "Seo Marketing",
+    "img": "https://c8d8q6i8.stackpathcdn.com/wp-content/uploads/2020/01/Alton-Mason-Contact-Information.jpg",
+    "description": "SEO services are services typically offered by an SEO agency that helps your company succeed in search engine optimization. With SEO, your business search engines like Google and Bing.",
+    "price": 69,
+    "rate": 5,
+    "reveiw": 118,
+    "batch": 3
+  },
+  {
+    "key": 7,
+    "service": "Content Writing",
+    "img": "https://st2.depositphotos.com/3591429/6006/i/600/depositphotos_60065853-stock-photo-businessman-writing-the-word-content.jpg",
+    "description": "Content writing services are firms, companies or group of writers that provide services such as blog writing for websites, web content writing, marketing material content, white papers.",
+    "price": 57,
+    "rate": 4,
+    "reveiw": 93,
+    "batch": 4
+  },
+  {
+    "key": 8,
+    "service": "Data Entry",
+    "img": "https://cdn.bpodataentryhelp.com/sites/default/files/image-data-entry.jpg",
+    "description": "Preparing and sorting documents for data entry. Entering data into database software and checking to ensure the accuracy of the data that has been inputted. Resolving discrepancies in information",
+    "price": 48,
+    "rate": 5,
+    "reveiw": 133,
+    "batch": 6
+  }
+]
