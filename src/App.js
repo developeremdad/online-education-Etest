@@ -7,7 +7,7 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Courses from './components/Courses/Courses';
 import About from './components/About/About';
-import Instructor from './components/Instructor/Instructor';
+import Instructors from './components/Instructors/Instructors';
 
 function App() {
   return (
@@ -31,8 +31,8 @@ function App() {
             <About></About>
           </Route>
 
-          <Route path="/instructor">
-            <Instructor></Instructor>
+          <Route path="/instructors">
+            <Instructors></Instructors>
           </Route>
 
         </Switch>

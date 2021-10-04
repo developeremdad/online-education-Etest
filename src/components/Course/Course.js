@@ -1,11 +1,18 @@
 import React from 'react';
 import { Card, Col, ListGroup, ListGroupItem, Button, NavLink } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 import './Course.css';
 
 const Course = (props) => {
     const { img, price, reveiw, batch, service, description } = props.course;
+    const history = useHistory();
+
+    const handleClick = () => {
+        history.push("/courses");
+    }
+
     return (
-        <Col xs={6} md={4} className="mb-4">
+        <Col xs={12} md={4} className="mb-4">
             <Card>
                 <Card.Img variant="top" className="card-image" src={img} />
                 <Card.Body>
@@ -21,7 +28,7 @@ const Course = (props) => {
                 </ListGroup>
                 <Card.Body >
                     <NavLink to="/home" className="d-inline"><Button variant="success">Enroll Now</Button></NavLink>
-                    <NavLink to="/courses" className="d-inline"><Button variant="info">All Courses</Button></NavLink>
+                    <NavLink to="/courses" className="d-inline"><Button onClick={handleClick} variant="info">All Courses</Button></NavLink>
                 </Card.Body>
             </Card>
         </Col>

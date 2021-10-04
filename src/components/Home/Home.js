@@ -3,9 +3,14 @@ import './Home.css';
 import Banner from '../../Banner.png';
 import { Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
+import { useHistory } from 'react-router';
 
 
 const Home = () => {
+    const history = useHistory()
+    const handleClick = () => {
+        history.push("/courses")
+    }
 
     const [courses, setCourses] = useState([]);
 
@@ -23,7 +28,7 @@ const Home = () => {
                     <div className="text-start">
                         <p className="fw-bold">Popular Online Courses</p>
                         <h1 className="mt-5 banner-title">The New Way To Learn Properly in With Us!</h1>
-                        <button className="regular-btn mt-5">Get Started</button>
+                        <button onClick={handleClick} className="regular-btn mt-5">Get Started</button>
                     </div>
                 </div>
                 {/* banner img section  */}

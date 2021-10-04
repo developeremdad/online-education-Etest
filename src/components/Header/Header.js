@@ -22,7 +22,7 @@ const Header = () => {
                                 <NavLink className="nav-link text-light" to="/about">About</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link text-light" to="/instructor">Instructor</NavLink>
+                                <NavLink className="nav-link text-light" to="/instructors">Instructor</NavLink>
                             </li>
                         </ul>
                         <form className="d-flex">
