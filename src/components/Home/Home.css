@@ -1,0 +1,23 @@
+.banner-section{
+    background-color: #bcdefe;
+    margin: 0;
+}
+.banner-title{
+    font-size: 60px;
+}
+.banner-img{
+    padding: 0;
+}
+.regular-btn{
+    background-color:#2d3092;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    transition: .5s;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+.regular-btn:hover{
+    background-color: #12145f;
+    padding: 10px 50px;
+}
