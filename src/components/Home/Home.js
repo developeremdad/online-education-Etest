@@ -1,11 +1,20 @@
-import React from 'react';
-// import { useEffect } from 'react-dom';
+import React, { useEffect, useState } from 'react';
 import './Home.css';
 import Banner from '../../Banner.png';
+import { Container, Row } from 'react-bootstrap';
+import Course from '../Course/Course';
 
 
 const Home = () => {
 
+    const [courses, setCourses] = useState([]);
+
+    useEffect(() => {
+        const url = './fakeDataLoad.json'
+        fetch(url)
+            .then(res => res.json())
+            .then(data => setCourses(data))
+    }, [])
     return (
         <div>
             {/* this is header banner section start  */}
@@ -24,8 +33,22 @@ const Home = () => {
             </div>
             {/* header banner section end */}
 
+            {/* display courses section start  */}
+            <div>
+                <Container className="mt-5">
+                    <Row className="">
+                        {
+                            courses.map(course => <Course
+                                key={course.key}
+                                course={course}></Course>)
+                        }
+                    </Row>
 
-        </div>
+                </Container>
+
+            </div>
+
+        </div >
     );
 };
 
