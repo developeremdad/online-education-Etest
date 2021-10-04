@@ -13,6 +13,7 @@ const Home = () => {
     }
 
     const [courses, setCourses] = useState([]);
+    // const newCourses = courses.slice(0, 6);
 
     useEffect(() => {
         const url = './fakeDataLoad.json'
@@ -38,17 +39,19 @@ const Home = () => {
             </div>
             {/* header banner section end */}
 
+
+
             {/* display courses section start  */}
             <div>
-                <Container className="mt-5">
+                <Container style={{ margin: "80px auto" }} className="mt-5">
                     <Row className="">
                         {
-                            courses.map(course => <Course
+                            courses.slice(0, 6).map(course => <Course
                                 key={course.key}
                                 course={course}></Course>)
                         }
                     </Row>
-
+                    <button onClick={handleClick} className="regular-btn mt-5">Find More Courses</button>
                 </Container>
 
             </div>
