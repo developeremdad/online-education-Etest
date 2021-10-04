@@ -2,3 +2,6 @@
     background-color: #0b0b1d;
     padding: 4rem;
 }
+.footer-icon:hover{
+    cursor: pointer;
+}

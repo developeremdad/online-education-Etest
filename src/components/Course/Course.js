@@ -22,9 +22,9 @@ const Course = (props) => {
                     </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
-                    <ListGroupItem><strong>Price: </strong>${price}</ListGroupItem>
-                    <ListGroupItem><strong>Batch: </strong>{batch}</ListGroupItem>
-                    <ListGroupItem><strong>Review: </strong>{reveiw}</ListGroupItem>
+                    <ListGroupItem><i className="fas fa-money-check-alt text-success"></i><strong> Price: </strong>${price}</ListGroupItem>
+                    <ListGroupItem><i className="fas fa-user-graduate text-success"></i> <strong>Batch: </strong>{batch}</ListGroupItem>
+                    <ListGroupItem><i className="fas fa-users text-success"></i> <strong>Review: </strong>{reveiw}</ListGroupItem>
                 </ListGroup>
                 <Card.Body >
                     <NavLink className="d-inline"><Button variant="success">Enroll Now</Button></NavLink>

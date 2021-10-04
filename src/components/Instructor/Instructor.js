@@ -13,7 +13,7 @@ const Instructor = (props) => {
                     <Card.Text>
                         Course: {service}
                     </Card.Text>
-                    <Card.Text>Rating: {rate} </Card.Text>
+                    <Card.Text>Rating: {rate} <i className="fas fa-star text-warning"></i></Card.Text>
                 </Card.Body>
 
             </Card>
