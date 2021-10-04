@@ -64,7 +64,7 @@
     "service": "Seo Marketing",
     "teacher": "Alexzander",
     "teacherImg": "http://atikweb.org/wp-content/uploads/2017/05/instructor-img-9-1.jpg",
-    "img": "https://c8d8q6i8.stackpathcdn.com/wp-content/uploads/2020/01/Alton-Mason-Contact-Information.jpg",
+    "img": "https://www.mikegingerich.com/wp-content/uploads/2019/10/The-Top-Reasons-SEO-Marketing-Has-Become-Essential-In-The-Digital-Age-625x414.jpg",
     "description": "SEO services are services typically offered by an SEO agency that helps your company succeed in search engine optimization. With SEO, your business search engines like Google and Bing.",
     "price": 69,
     "rate": 5,
@@ -94,5 +94,17 @@
     "rate": 5,
     "reveiw": 133,
     "batch": 6
+  },
+  {
+    "key": 9,
+    "service": "Ethical Hacking",
+    "teacher": "FH Khusnal",
+    "teacherImg": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201910/SE-2-Winds-of-Change-Oct28-6_1-647x363.jpeg?cECWDzzUzlT8T8V6mL7H9b4Fk07rFAN2",
+    "img": "https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/06/Ethical-Hacking.png",
+    "description": "Ethical hacking involves an authorized attempt to gain unauthorized access to a computer system, application, or data. Carrying out an ethical hack involves duplicating strategies and actions of malicious attackers.",
+    "price": 83,
+    "rate": 5,
+    "reveiw": 164,
+    "batch": 7
   }
 ]

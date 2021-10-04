@@ -27,8 +27,8 @@ const Course = (props) => {
                     <ListGroupItem><strong>Review: </strong>{reveiw}</ListGroupItem>
                 </ListGroup>
                 <Card.Body >
-                    <NavLink to="/home" className="d-inline"><Button variant="success">Enroll Now</Button></NavLink>
-                    <NavLink to="/courses" className="d-inline"><Button onClick={handleClick} variant="info">All Courses</Button></NavLink>
+                    <NavLink className="d-inline"><Button variant="success">Enroll Now</Button></NavLink>
+                    <NavLink className="d-inline"><Button onClick={handleClick} variant="info">All Courses</Button></NavLink>
                 </Card.Body>
             </Card>
         </Col>
