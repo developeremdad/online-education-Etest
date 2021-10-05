@@ -9,14 +9,12 @@
     padding: 0;
 }
 
-.courses-title{
-    /* background-color: #edf5fd; */
+.courses-title-container{
     background-color: #28283ffb;
     height: 6rem;
 }
 .title{
     font-size: 40px;
-    /* color: #2d3092; */
     text-transform: uppercase;
 }
 .regular-btn{
