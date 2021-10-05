@@ -9,7 +9,7 @@ const Course = (props) => {
 
     const handleClick = () => {
         history.push("/courses");
-        window.location.reload();
+        // window.location.reload();
     }
 
     return (
