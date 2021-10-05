@@ -44,7 +44,7 @@ const Home = () => {
             {/* display courses section start  */}
             <div>
                 {/* courses title  */}
-                <div className="courses-title-constainer d-flex align-items-center justify-content-center text-light">
+                <div className="courses-title-container d-flex align-items-center justify-content-center text-light">
                     <h1 className="title">Most Popular Courses</h1>
                 </div>
                 {/* all courses  */}
