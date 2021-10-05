@@ -24,10 +24,10 @@ const Header = () => {
                             <NavLink className="nav-link text-dark fw-bold" to="/instructors">Instructor</NavLink>
                         </li>
                     </ul>
-                    <form className="d-flex">
+                    <div className="d-flex">
                         <input className="form-control me-2" type="search" placeholder="Find Course" aria-label="Search" />
                         <button className="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </nav>

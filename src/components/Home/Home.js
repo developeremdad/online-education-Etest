@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import { useHistory } from 'react-router';
+import { Container, Row } from 'react-bootstrap';
 import './Home.css';
 import Banner from '../../Banner.png';
-import { Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
-import { useHistory } from 'react-router';
 
 
 const Home = () => {
@@ -43,6 +43,10 @@ const Home = () => {
 
             {/* display courses section start  */}
             <div>
+                <div className="courses-title d-flex align-items-center justify-content-center text-light">
+                    <h1 className="title">Most Popular Courses</h1>
+                </div>
+                {/* all courses  */}
                 <Container style={{ margin: "80px auto" }} className="mt-5">
                     <Row className="">
                         {
