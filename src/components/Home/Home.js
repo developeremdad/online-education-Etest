@@ -7,16 +7,16 @@ import { useHistory } from 'react-router';
 
 
 const Home = () => {
+    // button hander function 
     const history = useHistory()
     const handleClick = () => {
         history.push("/courses")
     }
-
+    // state decleare for all courses 
     const [courses, setCourses] = useState([]);
-    // const newCourses = courses.slice(0, 6);
 
     useEffect(() => {
-        const url = './fakeDataLoad.json'
+        const url = './fakeDataLoad.json';
         fetch(url)
             .then(res => res.json())
             .then(data => setCourses(data))
@@ -46,6 +46,7 @@ const Home = () => {
                 <Container style={{ margin: "80px auto" }} className="mt-5">
                     <Row className="">
                         {
+                            // send Data to Course component 
                             courses.slice(0, 6).map(course => <Course
                                 key={course.key}
                                 course={course}></Course>)
